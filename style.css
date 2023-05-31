@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    word-spacing: 0,5pt;
+    letter-spacing: 0,3pt;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    margin: 60px auto 25px;
+    padding: 30px 5%;
+    width: 65%;
+    border-radius: 5px;
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+.header{
+    padding: 20px 0 5px 0;
+}
+
+.logo{
+    display: block;
+    width: 20%;
+    margin: 35px auto 15px auto;
+}
+
+.slogan{
+    font-size: 25px;
+    color: rgb(57, 248, 18);
+}
+
+.slogan , .banner{
+    text-align: center;
+}
+
+.banner{
+    background-color: rgb(57, 248, 18);
+    padding: 1vh;
+    border-radius: 2px;
+}
+
+main div{
+    color: white;
+}
+
+.main{
+    padding-bottom: 40px;
+}
+
+.scooter{
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.description{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.carge{
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+    
+
+.orange{
+    background-color: orange;
+    width: 35%;
+}
+
+.green {
+    background-color: green;
+    width: 55%; 
+}
+
+.red{
+    background-color: red;
+    width: 10%;
+}
